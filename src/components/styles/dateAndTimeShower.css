@@ -1,0 +1,65 @@
+.outerDateAndTimeShowerContainer {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 1rem;
+}
+
+.dateAndTimeShowerContainer {
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    background: none;
+    font-family: sans-serif;
+    transition: 0.9s all;
+    border-radius: 4px;
+}
+
+.blocks2 {
+    color: rgba(199, 199, 199, 0.8);
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.otherOptionBlocks {
+    margin-right: 1rem;
+    color: #737373;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.1s ease-in;
+}
+
+.otherOptionBlocks:hover {
+    color: whitesmoke;
+}
+
+.imageName {
+    color: whitesmoke;
+}
+
+.dateAndTimeShowerContainer:hover {
+    background: #111111;
+}
+
+.date {
+    cursor: pointer;
+    font-family: 'Bruno AcE SC', cursive;
+}
+
+.arrow {
+    cursor: pointer;
+    user-select: none;
+}
+
+.title {
+    font-weight: 100;
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 1.2rem;
+    word-spacing: 0px;
+}

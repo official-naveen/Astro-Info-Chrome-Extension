@@ -1,0 +1,42 @@
+.outSideContentShower {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 100vw;
+    height: 60vh;
+}
+
+
+.sideContentShower {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    z-index: 2;
+    white-space: nowrap;
+    width: 24rem;
+    height: 2rem;
+    transform: translate(11rem, 0px) rotate(-90deg);
+    transition: 0.5s all cubic-bezier(0.66, 0.66, 0.47, 0.46);
+}
+
+.blocks {
+    font-family: sans-serif;
+    font-weight: 600;
+    background: rgba(51, 51, 51, 0.8);
+    color: rgba(199, 199, 199, 0.8);
+    width: 33%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+.blocks:hover {
+    background-color: rgba(199, 199, 199, 0.8);
+}

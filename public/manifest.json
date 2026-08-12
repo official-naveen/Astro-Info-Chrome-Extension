@@ -1,0 +1,10 @@
+{
+  "name": "AstroInfo",
+  "description": "This extension is used to get right information and image related to astronomy direct from NASA on a daily basis",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["fullscreen", "tabs"],
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  }
+}
