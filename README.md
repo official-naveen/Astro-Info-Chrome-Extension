@@ -2,6 +2,11 @@
 
 AstroInfo is a Chrome extension that replaces your **New Tab** page with NASA's [Astronomy Picture of the Day (APOD)](https://apod.nasa.gov/apod/astropix.html) — a new space image, its title, and a full explanation, right when you open a tab.
 
+### New Tab View
+![Main view](./screenshots/main-view.png)
+
+This project was inspired by [APOD Chrome Extension](https://github.com/TravisL12/apod_chrome_extension) by [TravisL12](https://github.com/TravisL12) — credit to the original for the idea and feature set (favorites, new tab APOD viewing) that this project builds on with its own implementation.
+
 ![Manifest Version](https://img.shields.io/badge/manifest-v3-blue)
 ![React](https://img.shields.io/badge/react-18.2.0-61DAFB)
 
