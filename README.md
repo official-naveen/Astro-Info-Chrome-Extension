@@ -105,7 +105,7 @@ Contributions, issues, and feature requests are welcome. Feel free to check the 
 
 ## License
 
-This project currently has no license file. Consider adding one (e.g. [MIT](https://choosealicense.com/licenses/mit/)) so others know how they can use your code.
+This project currently has no license file.
 
 ## Acknowledgements
 
